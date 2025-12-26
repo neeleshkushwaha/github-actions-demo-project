@@ -1,0 +1,22 @@
+{
+  "name": "github-actions-demo-node",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "jest --coverage",
+    "lint": "eslint . --ext .js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.6.1",
+    "supertest": "^6.3.3",
+    "eslint": "^8.47.0"
+  }
+}
